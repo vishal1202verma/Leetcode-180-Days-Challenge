@@ -10,6 +10,23 @@ int m = 5;
     }
     cout<<endl;
  }
+ cout << endl;
+
+//    some rectunglar star 
+
+for( int i=1; i<=n; i++){
+    for(int j=1; j<=m; j++){
+        cout<<"*";
+     if (i>1 && i<n){
+        for(int k= j+1; j<m-1; j++){
+            cout<<" ";
+        }
+     }
+    
+    }
+    cout<<endl;
+ }
+ 
 
 
 

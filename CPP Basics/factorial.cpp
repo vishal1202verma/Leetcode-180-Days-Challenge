@@ -22,12 +22,12 @@ for( int i=1; i<=m; i++){
     cin>> n;
     int a =0;
     int i =1;
-    int sum = a +(i-1);
-    int fabi; 
+    
     while( i< 13){
-       int fabi =  sum++;
+        int sum = a +(i-1);
+        sum++;
     }
-     cout<<fabi;
+     cout<<sum;
    
 
 }

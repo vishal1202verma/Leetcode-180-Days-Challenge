@@ -13,8 +13,9 @@ for(int i=0; i<5; i++){
 }
 //output
 for(int i=0; i<5; i++){
-    cout<<v[i]<<" ";
-         
+    cout<<v[i]<<" ";      
+}
+
 }
 
 
@@ -23,4 +24,4 @@ for(int i=0; i<5; i++){
 
 
 
-}
+

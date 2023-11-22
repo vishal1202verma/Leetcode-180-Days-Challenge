@@ -16,7 +16,7 @@ int main (){
     display(v1);
     cout<<endl;
     int i=0; 
-    int j = v1.size()-1;
+    int j = v1.size()-1-i;
     while(i<=j){
         int temp = v1[i];
         v1[i] = v1[j];

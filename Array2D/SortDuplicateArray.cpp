@@ -25,4 +25,8 @@ int main (){
     //     cout<<sort;
     sort(v1.begin(), v1.end());
     display(v1);
+    cout<<endl;
+    reverse(v1.begin(), v1.end());
+    display(v1);
+                   
 }

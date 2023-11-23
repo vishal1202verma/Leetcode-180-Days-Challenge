@@ -7,12 +7,12 @@ int x;
 cout<<"enter the value of x";
 cin>>x;
 int count  =0;
-for(int i=0; i<=4; i++){
+for(int i=0; i<5; i++){
     if(arr[i]>x){
         count++;
     }
-    cout<<count<<arr[i]<<" ";
 }
+    cout<<count<<" ";
 
 
 

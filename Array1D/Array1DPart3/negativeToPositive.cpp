@@ -11,8 +11,8 @@ void sort(vector<int> &v){
     }
     //filling 
     for(int i=0; i<n; i++ ){
-        if(i<non) v[i] = 0;
-        else v[i] = 1;
+        if(i<non) v[i] = -i;
+        else v[i] = i;
     }
 }
 int main (){

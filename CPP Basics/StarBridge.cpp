@@ -4,7 +4,7 @@ int main (){
 int n;
 cout<<"enter the num of rows :";
 cin>>n;
-for(int a =0; a<n-6; a++ ){
+for(int a =1; a<2*n-1; a++ ){
     cout<<"*";
 }
 for(int i=0; i<=n; i++){

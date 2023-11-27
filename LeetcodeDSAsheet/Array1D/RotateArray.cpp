@@ -2,7 +2,6 @@
 using namespace std;
 int main (){
 int arr[7] = {1,2,3,4,5,6,7};
-// rotate formula =>   (i+k)%n = nums[i] where k = rotate value
 int n =7;
 int k =3;
         for(int i=0; i<k; i++){

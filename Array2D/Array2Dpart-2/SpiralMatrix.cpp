@@ -15,16 +15,19 @@ int main (){
         cout<<a[minr][j]<<" ";
        }
         minr++;
+        if(minr>maxr || minc>maxc) break;  
        //Down
        for(int k =minr; k<=maxr; k++){
         cout<<a[k][maxc]<<" ";
        }
         maxc--;
+          if(minr>maxr || minc>maxc) break;  
         //left
         for(int l=maxc; l>=minc; l--){
             cout<<a[maxr][l]<<" " ;
         }
             maxr--;
+        if(minr>maxr || minc>maxc) break;  
         //up
         for(int m= maxr; m>=minr; m--){
         cout<<a[m][minc]<<" ";

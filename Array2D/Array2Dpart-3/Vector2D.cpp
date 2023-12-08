@@ -20,7 +20,13 @@ vector<vector<int>>  v;
 v.push_back(v1);
 v.push_back(v2);
 v.push_back(v3);
-cout<<v[1][1];
+// printing the 2D vector 
+for(int i=0; i<v.size(); i++){
+    for(int j=0; j<v[0].size(); j++){
+        cout<<v[i][j]<<" ";
+    }
+    cout<<endl;
+}
 
 
 

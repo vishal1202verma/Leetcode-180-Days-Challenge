@@ -22,6 +22,15 @@ v3.push_back(0);
 v3.push_back(0);
 v.push_back(v3);
 
+// priting 
+for(int i=0; i<=v.size(); i++){
+    for(int j=0; j<=v[0].size(); j++){
+        cout<<v[i][j]<<" ";
+    }
+    cout<<endl;
+    
+}
+cout<<endl;
 
 // flopping the rows of 2D vector
     for(int i=0; i<=v.size(); i++){

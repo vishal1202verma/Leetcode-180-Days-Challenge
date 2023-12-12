@@ -28,15 +28,11 @@ for(int i=0; i<(min(first.size(), last.size())); i++){
         }
         // else{
         //     cout<<s<<endl;
-        // }
-
+        // }  
      
 }
 
-cout<<s;
-
-
-
-
+cout<<s<<endl;
+cout<<"vishal verma ji";
 
 }

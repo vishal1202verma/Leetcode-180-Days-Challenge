@@ -16,6 +16,7 @@ string s = "the sky is blue";
             if (i != words.size() - 1) ans += " ";
             ans += words[i];
         }
-        cout<<ans;
+        cout<<"this is the reverse word of string "<<ans;
+        
 
 }

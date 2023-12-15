@@ -20,5 +20,6 @@ int main(){
         if(index==-1)
         cout<<ans;
         cout<<num.substr(0,index+1);
+        
 
     }

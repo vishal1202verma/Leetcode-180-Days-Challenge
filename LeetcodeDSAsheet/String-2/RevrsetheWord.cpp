@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
-#include<stringstream>
+#include<sstream>
 using namespace std;
 int main (){
 string s = "the sky is blue";
@@ -16,7 +16,7 @@ string s = "the sky is blue";
             if (i != words.size() - 1) ans += " ";
             ans += words[i];
         }
-        cout<<"this is the reverse word of string "<<ans;
+        cout<<"this is the reverse word of string : "<<ans;
         
 
 }

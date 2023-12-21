@@ -5,7 +5,7 @@
 #include<vector>
 using namespace std;
 int main (){
-        string s  = "III";   
+        string s  = "'I', 'I', 'I'";   
         int n  = s.size();
          vector<string>v;
          stringstream ss(s);

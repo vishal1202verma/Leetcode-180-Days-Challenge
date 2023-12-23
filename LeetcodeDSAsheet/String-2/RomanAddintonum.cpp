@@ -3,22 +3,32 @@
 #include<algorithm>
 #include<string>
 #include<vector>
+#include<unordered_map>
 using namespace std;
 int main (){
-        string s  = "'I', 'I', 'I'";   
-        int n  = s.size();
-         vector<string>v;
-         stringstream ss(s);
-         string temp;
-         int sum = 0;
-         while(ss>> temp){
-             v.push_back(temp);
-         } 
-         for(int i=0; i<n; i++){
-             cout<<v[0];
-             break;
-         }
-
+        string s  = "LVII";   
+        unordered_map<char, int> m;
+        
+        m['I'] = 1;
+        m['V'] = 5;
+        m['X'] = 10;
+        m['L'] = 50;
+        m['C'] = 100;
+        m['D'] = 500;
+        m['M'] = 1000;
+        
+        int ans = 0;
+        
+        for(int i = 0; i < s.length(); i++){
+            // if(m[s[i]] < m[s[i+1]]){
+            //     ans += m[s[i]];
+            // }
+            // else{
+            //     ans += m[s[i]];
+            // }
+            ans += m[s[i]];
+        }
+        cout<<ans;
         
 
 }

@@ -10,12 +10,12 @@ using namespace std;
     }
 int main(){
 vector<int>nums;
-nums.push_back(3);
+nums.push_back(4);
 nums.push_back(2);
-nums.push_back(5);
-nums.push_back(2);
+nums.push_back(4);
+nums.push_back(4);
 nums.push_back(2);
 cout<<"the n/2 time element of the array is :"<<majorityElement(nums);
-cout<<"vishal verma ji";
+// cout<<"vishal verma ji";
 
 }
